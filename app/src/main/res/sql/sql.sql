@@ -10,8 +10,7 @@ CREATE TABLE product
 (id INT,
   name VARCHAR(6) NOT NULL,
   mfg_name VARCHAR(6),
-  mfg_id INT
-  ...
+  mfg_id INT)
 
 SELECT name, price
 FROM product
