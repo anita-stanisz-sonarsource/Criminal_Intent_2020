@@ -5,6 +5,7 @@ CREATE TABLE product
   mfg_name VARCHAR(6),
   mfg_id INT)
 
+  
 SELECT name, price
 FROM product
 WHERE name is not null -- Noncompliant; always true. This column is NOT NULL
